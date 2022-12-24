@@ -71,6 +71,7 @@ compinit
 
 # Plugins
 source ~/scripts/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/scripts/LS_COLORS/lscolors.sh
 
 # Aliases
 function cs() {
