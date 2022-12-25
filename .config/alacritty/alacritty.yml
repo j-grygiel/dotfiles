@@ -13,7 +13,6 @@ font:
     family: Iosevka Custom
     style: Italic
       
-# Start flavours
 # Base16 Gruvbox dark, medium - alacritty color config
 # Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
 colors:
@@ -50,4 +49,3 @@ colors:
     white:   '0xfbf1c7'
 
 draw_bold_text_with_bright_colors: false
-# End flavours
