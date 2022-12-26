@@ -1,7 +1,7 @@
-window:
-  padding:
-    x: 50
-    y: 50
+# window:
+#   padding:
+#     x: 50
+#     y: 50
 font:
   normal:
     family: Iosevka Custom
