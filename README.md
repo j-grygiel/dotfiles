@@ -12,4 +12,4 @@ Here are some details about my setup:
 - Notification Daemon: [Dunst](https://dunst-project.org/)
 - Music Player: [ncspot](https://github.com/hrkfdn/ncspot)
 ---
-- Font: [elenapan's](https://github.com/elenapan) [custom build](https://www.dropbox.com/s/nqyurzy8wcupkkz/myosevka.zip?dl=0) of [Iosevka](https://github.com/be5invis/Iosevka)
+- Font: [elenapan](https://github.com/elenapan)'s [custom build](https://www.dropbox.com/s/nqyurzy8wcupkkz/myosevka.zip?dl=0) of [Iosevka](https://github.com/be5invis/Iosevka)
