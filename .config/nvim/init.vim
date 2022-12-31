@@ -24,7 +24,6 @@ hi! LineNr ctermbg=none
 " guibg=none 
 set foldmethod=indent
 set foldlevel=99
-let g:ale_linters = {'python': ['flake8']}
 
 call plug#begin()
  Plug 'chriskempson/base16-vim'
@@ -37,7 +36,7 @@ call plug#begin()
  Plug 'neoclide/coc.nvim', {'branch': 'release'}
  Plug 'sheerun/vim-polyglot'
  Plug 'ap/vim-css-color'
- Plug 'w0rp/ale'
+ " Plug 'w0rp/ale'
  Plug 'mattn/emmet-vim'
 call plug#end()
 
@@ -58,3 +57,4 @@ function! CheckBackspace() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
+let g:ale_linters = {'python': ['flake8']}
