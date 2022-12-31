@@ -4,10 +4,10 @@ Here are some details about my setup:
 - OS: [Artix Linux](https://artixlinux.org/)
 - Window Manager: [my build](https://github.com/j-grygiel/dwm) of [dwm](https://dwm.suckless.org/)
 - Shell: [ZSH](https://www.zsh.org/)
-- Terminal: [Alacritty](https://alacritty.org/)
+- Terminal: [my build](https://github.com/j-grygiel/st) of [st](https://tools.suckless.org/slstatus/)
 - Text Editor: [neovim](https://neovim.io/)
 ---
-- Status Bar: [my build](https://github.com/j-grygiel/slstatus) of [slstatus](https://tools.suckless.org/slstatus/)
+- Status Bar: [my build](https://github.com/j-grygiel/slstatus) of [slstatus](https://st.suckless.org/)
 - Application Launcher: [Rofi](https://github.com/davatorium/rofi)
 - Notification Daemon: [Dunst](https://dunst-project.org/)
 - Music Player: [ncspot](https://github.com/hrkfdn/ncspot)
