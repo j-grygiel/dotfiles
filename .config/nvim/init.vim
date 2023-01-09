@@ -17,7 +17,7 @@ set mouse=a                 " enable mouse click
 set clipboard=unnamedplus   " using system clipboard
 filetype plugin on
 set ttyfast                 " Speed up scrolling in Vim
-" set spell                 " enable spell check (may need to download language package)
+:map <F5> :setlocal spell! <CR>
 colorscheme base
 let g:rainbow_active = 1
 hi! LineNr ctermbg=none
@@ -38,6 +38,7 @@ call plug#begin()
  Plug 'ap/vim-css-color'
  " Plug 'w0rp/ale'
  Plug 'mattn/emmet-vim'
+ Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 nnoremap <C-f> :NERDTreeFocus<CR>
