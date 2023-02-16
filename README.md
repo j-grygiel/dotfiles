@@ -5,7 +5,7 @@ Here are some details about my setup:
 - Window Manager: [my build](https://github.com/j-grygiel/dwm) of [dwm](https://dwm.suckless.org/)
 - Shell: [ZSH](https://www.zsh.org/)
 - Terminal: [my build](https://github.com/j-grygiel/st) of [st](https://tools.suckless.org/slstatus/)
-- Text Editor: [neovim](https://neovim.io/)
+- Text Editor: [neovim](https://neovim.io/) and [VSCodium](https://vscodium.com/)
 ---
 - Status Bar: [my build](https://github.com/j-grygiel/slstatus) of [slstatus](https://st.suckless.org/)
 - Application Launcher: [Rofi](https://github.com/davatorium/rofi)

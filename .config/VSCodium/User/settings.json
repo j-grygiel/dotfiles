@@ -1,0 +1,10 @@
+{
+    "editor.fontFamily": "'Iosevka Custom', 'Droid Sans Mono', 'monospace', monospace",
+    "files.autoSave": "afterDelay",
+    "cSpell.language": "en-GB",
+    "git.enableSmartCommit": true,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "git.confirmSync": false,
+    "vscord.app.name": "VSCodium"
+}
