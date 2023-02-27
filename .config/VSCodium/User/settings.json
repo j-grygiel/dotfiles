@@ -6,5 +6,15 @@
     "explorer.confirmDragAndDrop": false,
     "workbench.colorTheme": "Gruvbox Dark Medium",
     "git.confirmSync": false,
-    "vscord.app.name": "VSCodium"
+    "vscord.app.name": "VSCodium",
+    "cSpell.userWords": [
+        "Neplan",
+        "NPCS",
+        "WASD"
+    ],
+    "explorer.confirmDelete": false,
+    "markyMarkdown.statsShowReadingTime": false,
+    "markyMarkdown.statsShowWords": true,
+    "markyMarkdown.statsShowLines": false,
+    "markyMarkdown.statsShowCharacters": false
 }
