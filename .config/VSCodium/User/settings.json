@@ -16,5 +16,6 @@
     "markyMarkdown.statsShowReadingTime": false,
     "markyMarkdown.statsShowWords": true,
     "markyMarkdown.statsShowLines": false,
-    "markyMarkdown.statsShowCharacters": false
+    "markyMarkdown.statsShowCharacters": false,
+    "tabnine.experimentalAutoImports": true
 }
