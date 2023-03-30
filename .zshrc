@@ -80,3 +80,5 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # Load zsh-syntax-highlighting; should be last.
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+
+if [ -e /home/jakub/.nix-profile/etc/profile.d/nix.sh ]; then . /home/jakub/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
