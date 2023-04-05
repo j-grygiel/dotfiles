@@ -17,5 +17,11 @@
     "markyMarkdown.statsShowWords": true,
     "markyMarkdown.statsShowLines": false,
     "markyMarkdown.statsShowCharacters": false,
-    "tabnine.experimentalAutoImports": true
+    "tabnine.experimentalAutoImports": true,
+    "grammarly.files.include": [
+        "**/readme.md",
+        "**/README.md",
+        "**/*.txt",
+        "**/*.md"
+    ]
 }
