@@ -57,7 +57,7 @@ lfcd () {
         [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
     fi
 }
-bindkey -s '^e' 'lfcd\n'
+bindkey -s '^o' 'lfcd\n'
 
 # Edit line in vim with ctrl-e:
 # autoload edit-command-line; zle -N edit-command-line
@@ -73,12 +73,15 @@ compinit
 source ~/scripts/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Aliases
-function cs() {
-    cd "$@" && ls -a;
-}
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+function cs() {
+    cd "$@" && lsd;
+}
+function csa() {
+    cd "$@" && lsd -a;
+}
+alias ls='lsd'
+alias lsa='ls -a'
 
 # Load zsh-syntax-highlighting; should be last.
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
-
-if [ -e /home/jakub/.nix-profile/etc/profile.d/nix.sh ]; then . /home/jakub/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 3>/dev/null
