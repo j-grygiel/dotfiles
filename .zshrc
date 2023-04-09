@@ -70,7 +70,7 @@ autoload -Uz compinit
 compinit
 
 # Plugins
-source ~/scripts/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.local/bin/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Aliases
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
@@ -82,6 +82,10 @@ function csa() {
 }
 alias ls='lsd'
 alias lsa='ls -a'
+
+# Add directories to $PATH
+
+export PATH=~/.local/bin:$PATH
 
 # Load zsh-syntax-highlighting; should be last.
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 3>/dev/null
