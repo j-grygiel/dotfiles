@@ -23,5 +23,7 @@
         "**/README.md",
         "**/*.txt",
         "**/*.md"
-    ]
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "aws.telemetry": false
 }
