@@ -1,7 +1,8 @@
 #!/bin/sh
 
 options=$(pactl list short sinks | awk '{print $2}')
-choice=$(printf '%s\n' "$options" | dmenu -i)
+# choice=$(printf '%s\n' "$options" | dmenu -i)
+choice=$(printf '%s\n' "$options" | rofi -dmenu)
 
 if [ $choice ]; then
     pactl set-default-sink $choice

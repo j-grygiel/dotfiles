@@ -1,7 +1,8 @@
 #!/bin/sh
 
 options=$(bluetoothctl devices | awk '{print $NF}') 
-choice=$(printf '%s\n' "$options" | dmenu -i)
+# choice=$(printf '%s\n' "$options" | dmenu -i)
+choice=$(printf '%s\n' "$options" | rofi -dmenu)
 devid=$(bluetoothctl devices | awk -v pattern="$choice" '$0 ~ pattern {print $2}')
 
 if [ $choice ]; then
