@@ -74,6 +74,9 @@ source ~/.local/bin/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Aliases
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias ins='sudo pacman -S'
+alias rem='sudo pacman -Rns'
+alias upd='paru'
 function cs() {
     cd "$@" && lsd;
 }
