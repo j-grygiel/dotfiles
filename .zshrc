@@ -74,17 +74,17 @@ source ~/.local/bin/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Aliases
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-alias ins='sudo pacman -S'
-alias rem='sudo pacman -Rns'
-alias upd='paru'
+alias add='package-install'
+alias del='package-remove'
+alias ser='package-search'
+alias ls='lsd'
+alias lsa='ls -a'
 function cs() {
     cd "$@" && lsd;
 }
 function csa() {
     cd "$@" && lsd -a;
 }
-alias ls='lsd'
-alias lsa='ls -a'
 
 # Add directories to $PATH
 
