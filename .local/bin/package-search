@@ -1,0 +1,12 @@
+#!/bin/sh
+
+official=$(pacman -Ss "$1" 2>/dev/null)
+aur=$(paru -Ss "$1" 2>/dev/null)
+
+if [ -n "$official" ]; then
+    printf 'Official Repositories:\n%s\n' "$official"
+fi
+
+if [ -n "$aur" ]; then
+    printf 'AUR:\n%s\n' "$aur"
+fi

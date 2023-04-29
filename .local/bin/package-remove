@@ -1,0 +1,3 @@
+#!/bin/sh
+
+pacman -Q $@ && sudo pacman -Rns $@

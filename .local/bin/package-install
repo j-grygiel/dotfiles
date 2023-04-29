@@ -1,0 +1,30 @@
+#!/bin/sh
+
+official=""
+aur=""
+
+for package in "$@"; do
+    if pacman -Ss "$package" >/dev/null 2>&1; then
+        printf '%s found in official repositories\n' "$package"
+        official="$official $package"
+    else
+        printf '\n%s not found in official repositories, searching AUR...\n' "$package"
+        if paru -Ss "$package" >/dev/null 2>&1; then
+            printf '%s found in AUR\n' "$package"
+            aur="$aur $package"
+        else
+            printf '\nError: %s not found in official repositories or AUR, exiting.\n' "$package"
+            exit 1
+        fi
+    fi
+done
+
+if [ -n "$official" ]; then
+    printf '\nInstalling package(s) from official repositories\n'
+    sudo pacman -S $official
+fi
+
+if [ -n "$aur" ]; then
+    printf '\nInstalling package(s) from AUR\n'
+    paru -S $aur
+fi
