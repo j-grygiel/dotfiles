@@ -74,9 +74,6 @@ source ~/.local/bin/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Aliases
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-alias add='package-install'
-alias del='package-remove'
-alias ser='package-search'
 alias ls='lsd'
 alias lsa='ls -a'
 function cs() {
