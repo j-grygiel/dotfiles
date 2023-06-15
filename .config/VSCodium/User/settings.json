@@ -1,6 +1,5 @@
 {
     "editor.fontFamily": "'Iosevka Custom', 'Droid Sans Mono', 'monospace', monospace",
-    "files.autoSave": "afterDelay",
     "cSpell.language": "en-GB",
     "git.enableSmartCommit": true,
     "explorer.confirmDragAndDrop": false,
@@ -22,8 +21,11 @@
         "**/readme.md",
         "**/README.md",
         "**/*.txt",
-        "**/*.md"
+        "**/*.md",
+        "**/*.tex"
     ],
     "security.workspace.trust.untrustedFiles": "open",
-    "aws.telemetry": false
+    "aws.telemetry": false,
+    "grammarly.config.documentDomain": "academic",
+    "grammarly.config.documentDialect": "australian"
 }
