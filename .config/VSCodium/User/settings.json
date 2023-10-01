@@ -27,5 +27,6 @@
     "security.workspace.trust.untrustedFiles": "open",
     "aws.telemetry": false,
     "grammarly.config.documentDomain": "academic",
-    "grammarly.config.documentDialect": "australian"
+    "grammarly.config.documentDialect": "australian",
+    "files.autoSave": "afterDelay"
 }
