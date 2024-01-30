@@ -52,8 +52,8 @@ get_duration() {
 
 }
 
-KEY="a51005e249627b4a49c2b8a5f6cc67f0"
-CITY="Ormiston,AU"
+KEY=""
+CITY=""
 UNITS="metric"
 SYMBOL="°C"
 
